@@ -100,7 +100,7 @@ h2{
 /* #region Utilities */
 .flex-container {
     display: flex;
-    width: 80%;
+    width: 70%;
     margin: auto;
 
 }
@@ -160,12 +160,12 @@ h2{
 .first-content {
     /* background-color: dodgerblue; */
     /* height: 25rem; */
-    width: 60%;
+    width: 70%;
 }
 
 .second-content {
     /* background-color: pink; */
-    width: 40%;
+    width: 30%;
 }
 
 
@@ -209,6 +209,10 @@ h2{
     width: 100%;
 }
 .img-study-group{
+    vertical-align: middle;
+    width: 100%;
+}
+.img-coach{
     vertical-align: middle;
     width: 100%;
 }
