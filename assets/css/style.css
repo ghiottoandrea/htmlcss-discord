@@ -33,24 +33,27 @@
 
 * {
     margin: 0;
-    padding:0;
+    padding: 0;
     box-sizing: border-box;
 }
-h1{
+
+h1 {
     font-size: 65px;
     padding-bottom: 3rem;
     color: var(--discord-lighter);
 }
-p{
+
+p {
     font-size: 22px;
     color: var(--discord-lighter);
 }
+
 nav {
     background-color: var(--discor-primary);
 }
 
 header {
-    
+
     background-image: url(../img/jumbo.png);
     /* height: 500px; */
     background-position: center;
@@ -58,22 +61,36 @@ header {
     background-repeat: no-repeat;
 }
 
-ul{
+ul {
     list-style: none;
     display: flex;
     width: 50%;
-    justify-content:space-around;
+    justify-content: space-around;
     color: var(--discord-lighter);
     font-size: small;
 
 }
 
-span{
-    background-color: white;
-    border-radius: 50%;
-    padding: 9px 10px;
-    font-size: small;
+.download-but {
+    padding: 3rem 8rem;
+    display: flex;
+    justify-content: space-around;
 }
+
+.download-mac {
+    background-color: var(--discord-lighter);
+    padding: 1rem 1.5rem;
+    border-radius: 120px;
+}
+
+.open-browser {
+    background-color:var(--discord-dark);
+    padding: 1rem 1.5rem;
+    border-radius: 120px;
+    color: var(--discord-lighter);
+}
+
+
 /* #endregion Common */
 
 /* #region Utilities */
@@ -94,30 +111,43 @@ span{
 
 /* #endregion Utilities */
 /* #region Header */
-.logo-cont{
+.logo-cont {
     width: 25%
 }
 
-.logo{
+.logo {
     align-items: center;
     text-align: start;
     width: 40%;
 }
 
-.acces{
+.acces {
     flex-grow: 1;
     text-align: end;
+
+
 }
 
-.top-navigator{
-    align-items: center;
+.login {
+    background-color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 120px;
+    font-size: small;
+
 }
+
+.top-navigator {
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
 .top-banner {
     width: 50%;
     text-align: center;
     margin: auto;
-    padding:  9rem 0;
-     
+    padding: 9rem 0;
+
 }
 
 /* #endregion Header */
