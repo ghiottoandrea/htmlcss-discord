@@ -1,0 +1,182 @@
+/* #region debug */
+.debug nav {
+    /* background-color: aqua;
+    height: 50px; */
+}
+
+.debug header {
+    background-color: blue;
+    /* height: 100px; */
+
+}
+
+.debug main {
+    /* background-color: lightgrey;
+    height: 900px; */
+}
+
+.debug footer {
+    background-color: rgba(0, 0, 0, 0.905);
+    /* height: 300px; */
+}
+
+/* #endregion debug */
+
+/* #region Common */
+:root {
+    --discor-primary: rgba(49, 97, 224, 1);
+    --discord-secondary: rgba(142, 161, 225, 1);
+    --discord-light: rgba(246, 246, 246, 1);
+    --discord-lighter: rgba(255, 255, 255, 1);
+    --discord-dark: rgba(35, 39, 42, 1);
+}
+
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 65px;
+    padding-bottom: 3rem;
+    color: var(--discord-lighter);
+}
+p{
+    font-size: 22px;
+    color: var(--discord-lighter);
+}
+nav {
+    background-color: var(--discor-primary);
+}
+
+header {
+    
+    background-image: url(../img/jumbo.png);
+    /* height: 500px; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    width: 50%;
+    justify-content:space-around;
+    color: var(--discord-lighter);
+    font-size: small;
+
+}
+
+span{
+    background-color: white;
+    border-radius: 50%;
+    padding: 9px 10px;
+    font-size: small;
+}
+/* #endregion Common */
+
+/* #region Utilities */
+.flex-container {
+    display: flex;
+    width: 70%;
+    margin: auto;
+
+}
+
+.pdd-1-0 {
+    padding: 1rem 0;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+/* #endregion Utilities */
+/* #region Header */
+.logo-cont{
+    width: 25%
+}
+
+.logo{
+    align-items: center;
+    text-align: start;
+    width: 40%;
+}
+
+.acces{
+    flex-grow: 1;
+    text-align: end;
+}
+
+.top-navigator{
+    align-items: center;
+}
+.top-banner {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding:  9rem 0;
+     
+}
+
+/* #endregion Header */
+
+/* #region Main */
+.first-content {
+    background-color: dodgerblue;
+    height: 25rem;
+    flex-grow: 3;
+}
+
+.second-content {
+    background-color: pink;
+    flex-grow: 2;
+}
+
+.first-section {
+    background-color: white;
+}
+
+.second-section {
+    background-color: lightgrey;
+}
+
+.third-section {
+    background-color: white;
+}
+
+.fourth-section {
+    background-color: lightgrey;
+}
+
+
+.primary-content {
+    background-color: rgb(16, 92, 4);
+    justify-content: center;
+    height: 40rem;
+    align-items: center;
+}
+
+/* #endregion Main */
+
+/* #region Footer */
+.bottom-credits {
+    flex-grow: 2;
+    background-color: red;
+    height: 350px;
+}
+
+.bottom-contacts {
+    flex-grow: 1;
+    background-color: aqua;
+    border-left: 1px solid black;
+}
+
+.bottom-banner {
+    justify-content: space-between;
+    background-color: aqua;
+    padding: 0.5rem 0;
+}
+
+/* #endregion Footer */
