@@ -24,7 +24,7 @@
 
 /* #region Common */
 :root {
-    --discor-primary: rgba(49, 97, 224, 1);
+    --discor-primary:  rgba(38, 93, 232, 1);
     --discord-secondary: rgba(142, 161, 225, 1);
     --discord-light: rgba(246, 246, 246, 1);
     --discord-lighter: rgba(255, 255, 255, 1);
@@ -43,7 +43,7 @@ h1 {
     color: var(--discord-lighter);
 }
 
-p {
+.top-speach {
     font-size: 22px;
     color: var(--discord-lighter);
 }
@@ -90,13 +90,17 @@ ul {
     color: var(--discord-lighter);
 }
 
+h2{
+    font-size: 55px;
+    margin
+}
 
 /* #endregion Common */
 
 /* #region Utilities */
 .flex-container {
     display: flex;
-    width: 70%;
+    width: 80%;
     margin: auto;
 
 }
@@ -154,30 +158,38 @@ ul {
 
 /* #region Main */
 .first-content {
-    background-color: dodgerblue;
-    height: 25rem;
-    flex-grow: 3;
+    /* background-color: dodgerblue; */
+    /* height: 25rem; */
+    width: 60%;
 }
 
 .second-content {
-    background-color: pink;
-    flex-grow: 2;
+    /* background-color: pink; */
+    width: 40%;
 }
 
+
+
 .first-section {
-    background-color: white;
+    background-color: var(--discord-lighter);
+    /* margin: 5rem 0; */
+    padding: 10rem 0;
 }
 
 .second-section {
     background-color: lightgrey;
+    padding: 10rem 0;
+    
 }
 
 .third-section {
     background-color: white;
+    padding: 10rem 0;
 }
 
 .fourth-section {
     background-color: lightgrey;
+    padding: 10rem 0;
 }
 
 
@@ -188,6 +200,18 @@ ul {
     align-items: center;
 }
 
+.section-speach{
+    font-size: 22px;
+    margin: 3rem 0;
+}
+.img-voice{
+    vertical-align: middle;
+    width: 100%;
+}
+.img-study-group{
+    vertical-align: middle;
+    width: 100%;
+}
 /* #endregion Main */
 
 /* #region Footer */
