@@ -24,7 +24,7 @@
 
 /* #region Common */
 :root {
-    --discor-primary:  rgba(38, 93, 232, 1);
+    --discor-primary: rgba(38, 93, 232, 1);
     --discord-secondary: rgba(142, 161, 225, 1);
     --discord-light: rgba(246, 246, 246, 1);
     --discord-lighter: rgba(255, 255, 255, 1);
@@ -43,9 +43,15 @@ h1 {
     color: var(--discord-lighter);
 }
 
-.top-speach {
-    font-size: 22px;
-    color: var(--discord-lighter);
+h4 {
+    color: var(--discord-secondary);
+    font-size: 36px;
+    padding-bottom: 2rem;
+}
+
+ul {
+    list-style: none;
+    color: var(--discord-lighter)
 }
 
 nav {
@@ -61,51 +67,7 @@ header {
     background-repeat: no-repeat;
 }
 
-ul {
-    list-style: none;
-    display: flex;
-    width: 50%;
-    justify-content: space-around;
-    color: var(--discord-lighter);
-    font-size: small;
-
-}
-
-.download-but {
-    padding: 3rem 8rem;
-    display: flex;
-    justify-content: space-around;
-}
-
-.download-mac {
-    background-color: var(--discord-lighter);
-    padding: 1rem 1.5rem;
-    border-radius: 120px;
-}
-.bottom-mac-d{
-    background-color: var(--discord-secondary);
-    padding: 0.5rem 1rem;
-    border-radius: 120px;
-    margin-top: 2rem;
-    color: var(--discord-lighter);
-}
-
-.open-browser {
-    background-color:var(--discord-dark);
-    padding: 1rem 1.5rem;
-    border-radius: 120px;
-    color: var(--discord-lighter);
-}
-.back-stars{
-    font-size: 35px;
-    background-image: url(../img/stars.svg);
-    background-repeat: no-repeat;
-    background-position: top;
-    padding: 2rem 4rem;
-    background-size: contain
-}
-
-h2{
+h2 {
     font-size: 55px;
     margin
 }
@@ -120,8 +82,8 @@ h2{
 
 }
 
-.pdd-1-0 {
-    padding: 1rem 0;
+.mg-1 {
+    margin-top: 0.6rem;
 }
 
 .reverse {
@@ -138,6 +100,16 @@ h2{
     align-items: center;
     text-align: start;
     width: 40%;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    color: var(--discord-lighter);
+    font-size: small;
+
 }
 
 .acces {
@@ -183,8 +155,6 @@ h2{
     width: 30%;
 }
 
-
-
 .first-section {
     background-color: var(--discord-lighter);
     /* margin: 5rem 0; */
@@ -194,7 +164,7 @@ h2{
 .second-section {
     background-color: lightgrey;
     padding: 10rem 0;
-    
+
 }
 
 .third-section {
@@ -216,41 +186,121 @@ h2{
     flex-direction: column;
 }
 
-.section-speach{
+.top-speach {
+    font-size: 22px;
+    color: var(--discord-lighter);
+}
+
+.section-speach {
     font-size: 22px;
     margin: 3rem 0;
 }
-.img-voice{
+
+.img-voice {
     vertical-align: middle;
     width: 100%;
 }
-.img-study-group{
+
+.img-study-group {
     vertical-align: middle;
     width: 100%;
 }
-.img-coach{
+
+.img-coach {
     vertical-align: middle;
     width: 100%;
+}
+
+.download-but {
+    padding: 3rem 8rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.download-mac {
+    background-color: var(--discord-lighter);
+    padding: 1rem 1.5rem;
+    border-radius: 120px;
+}
+
+.bottom-mac-d {
+    background-color: var(--discord-secondary);
+    padding: 0.5rem 1rem;
+    border-radius: 120px;
+    margin-top: 2rem;
+    color: var(--discord-lighter);
+}
+
+.open-browser {
+    background-color: var(--discord-dark);
+    padding: 1rem 1.5rem;
+    border-radius: 120px;
+    color: var(--discord-lighter);
+}
+
+.back-stars {
+    font-size: 35px;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 2rem 4rem;
+    background-size: contain
+}
+
+.wave{
+    background-image: url(../img/wave.svg);
 }
 /* #endregion Main */
 
 /* #region Footer */
+#side_footer {
+    background-color: var(--discord-dark);
+}
+
 .bottom-credits {
     flex-grow: 2;
-    background-color: red;
-    height: 350px;
+    padding: 2.1rem 0;
 }
+
 
 .bottom-contacts {
     flex-grow: 1;
-    background-color: aqua;
-    border-left: 1px solid black;
+    font-size: 18px;
+    padding: 3rem 0;
+}
+
+.col-sec {
+    color: var(--discord-secondary);
 }
 
 .bottom-banner {
     justify-content: space-between;
-    background-color: aqua;
-    padding: 0.5rem 0;
+    /* background-color: aqua; */
+    padding: 1rem 0;
+}
+
+.bottom-b {
+    border-bottom: 1px solid var(--discord-light);
+}
+
+
+.italian-flag {
+    width: 20px;
+}
+
+.language {
+    color: var(--discord-lighter);
+    font-size: 18px;
+    margin-top: 3rem;
+}
+
+.regis {
+    background-color: var(--discord-secondary);
+    color: var(--discord-lighter);
+    padding: 0.5rem 1rem;
+    border-radius: 120px;
+    font-size: small;
+
 }
 
 /* #endregion Footer */
