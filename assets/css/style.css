@@ -164,7 +164,7 @@ h2 {
 .second-section {
     background-color: lightgrey;
     padding: 10rem 0;
-
+    
 }
 
 .third-section {
@@ -247,9 +247,6 @@ h2 {
     background-size: contain
 }
 
-.wave{
-    background-image: url(../img/wave.svg);
-}
 /* #endregion Main */
 
 /* #region Footer */
