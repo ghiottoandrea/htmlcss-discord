@@ -82,12 +82,27 @@ ul {
     padding: 1rem 1.5rem;
     border-radius: 120px;
 }
+.bottom-mac-d{
+    background-color: var(--discord-secondary);
+    padding: 0.5rem 1rem;
+    border-radius: 120px;
+    margin-top: 2rem;
+    color: var(--discord-lighter);
+}
 
 .open-browser {
     background-color:var(--discord-dark);
     padding: 1rem 1.5rem;
     border-radius: 120px;
     color: var(--discord-lighter);
+}
+.back-stars{
+    font-size: 35px;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 2rem 4rem;
+    background-size: contain
 }
 
 h2{
@@ -194,10 +209,11 @@ h2{
 
 
 .primary-content {
-    background-color: rgb(16, 92, 4);
+    /* background-color: rgb(16, 92, 4); */
     justify-content: center;
-    height: 40rem;
+    /* height: 40rem; */
     align-items: center;
+    flex-direction: column;
 }
 
 .section-speach{
